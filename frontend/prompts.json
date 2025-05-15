@@ -1,0 +1,30 @@
+{
+  "fr": [
+    {
+      "title": "Générateur de vCard",
+      "text": "Utilisez ce générateur pour créer votre vCard personnalisée."
+    },
+    {
+      "title": "Planification",
+      "text": "Générez un planning personnalisé en fonction de votre niveau d'énergie."
+    },
+    {
+      "title": "Réseautage",
+      "text": "Connectez-vous avec d'autres membres du Club Empreinte Digitale."
+    }
+  ],
+  "en": [
+    {
+      "title": "vCard Generator",
+      "text": "Use this generator to create your personalized vCard."
+    },
+    {
+      "title": "Planning",
+      "text": "Generate a personalized planning based on your energy level."
+    },
+    {
+      "title": "Networking",
+      "text": "Connect with other members of the Club Empreinte Digitale."
+    }
+  ]
+}

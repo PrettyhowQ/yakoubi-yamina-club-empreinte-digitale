@@ -1,0 +1,53 @@
+club-empreinte-digitale/
+│
+├── backend/
+│   ├── app.py                      # Point d'entrée Flask (API, vCard, planning, etc.)
+│   ├── vcard/
+│   │   ├── generator.py            # Fonctions de génération de vCard
+│   │   └── routes.py               # Routes Flask pour la vCard
+│   ├── planning/
+│   │   ├── generator.py            # Génération de planning
+│   │   └── routes.py
+│   ├── prompts/
+│   │   ├── prompts.json            # Prompts multilingues
+│   │   └── routes.py
+│   ├── static/
+│   │   └── presentation_prettyhowq.mp3
+│   ├── templates/
+│   │   └── (tes fichiers HTML si besoin de rendu côté serveur)
+│   ├── requirements.txt            # Dépendances Python
+│   └── README.md
+│
+├── frontend/
+│   ├── public/
+│   │   ├── PrettyhowQ_logo.png
+│   │   └── index.html              # Page d'accueil
+│   ├── src/
+│   │   ├── App.js                  # Point d'entrée React/Vue
+│   │   ├── i18n/
+│   │   │   ├── fr.json
+│   │   │   └── en.json
+│   │   ├── generators/
+│   │   │   ├── ProductivityGenerator/
+│   │   │   │   ├── index.js
+│   │   │   │   ├── styles.css
+│   │   │   │   └── prompts.json
+│   │   │   └── ... (autres générateurs)
+│   │   └── components/
+│   │       └── ... (boutons, formulaires, etc.)
+│   ├── styles/
+│   │   └── global.css
+│   ├── package.json
+│   └── README.md
+│
+├── docs/
+│   ├── Cahier_des_Charges_Club_Empreinte_Digitale.html
+│   ├── Les Dix Generateurs Du ClubED.html
+│   └── README.md
+│
+├── legal/
+│   ├── LICENSE
+│   └── mentions_legales.md
+│
+├── .gitignore
+└── README.md
