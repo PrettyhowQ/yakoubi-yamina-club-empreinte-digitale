@@ -1,0 +1,24 @@
+club-empreinte-digitale/
+├── backend/                # Code Python, API, logique serveur
+│   └── (tes fichiers backend)
+├── frontend/
+│   └── src/
+│       ├── generators/     # 1 dossier par générateur (ProductivityGenerator, etc.)
+│       │   ├── ProductivityGenerator/
+│       │   │   ├── index.js
+│       │   │   ├── styles.css
+│       │   │   └── prompts.json
+│       │   └── ...         # autres générateurs
+│       ├── i18n/           # Fichiers de traduction
+│       │   ├── fr.json
+│       │   └── en.json
+│       └── App.js          # Point d’entrée frontend (React ou autre)
+├── docs/                   # Cahier des charges, docs, README.md, PDF
+│   └── (tes fichiers docs)
+├── legal/                  # Mentions légales, licence
+│   └── mentions_legales.md
+├── public/                 # Images, logos accessibles publiquement
+│   └── (logos, images)
+├── .gitignore              # Fichiers/dossiers à ignorer par Git
+├── README.md               # Présentation du projet
+└── requirements.txt        # Dépendances Python pour le backend

@@ -1,0 +1,62 @@
+
+# Arborescence du Projet – Club Empreinte Digitale
+
+## 1. Présentation générale
+- Accueil
+- À propos (Vision, valeurs, engagements, sécurité)
+
+## 2. Documents officiels
+- Charte d’engagement
+- Mentions légales
+- Conditions d'utilisation
+
+## 3. Espaces membres
+- Espace personnel (accès sécurisé, vCard, progression)
+- Bibliothèque du Club
+  - Livres téléchargeables (PDF, HTML, Markdown)
+  - Collections (Chronique Sociale, Diététique, Thérapeutique, etc.)
+- Espace création de site (modules Mois 1 à 4)
+- Diagnostic personnalisé avec PrettyhowQ
+
+## 4. Équipes & Référents
+- Souheila : Diététique, bien-être, nutrition
+- Hanaé : Thérapie, santé mentale, accompagnement
+- Développeurs, designers, contributeurs
+
+## 5. Outils & Générateurs
+- Générateur de VCard multilingue
+- Générateur de fiches personnalisées
+- Générateur de site statique
+
+## 6. Formation & Ressources
+- Calendrier de formation (4 mois)
+- Supports (vidéos, podcasts, tutoriels, PDF)
+- Fiches développeurs
+  - UX Designer
+  - Développeur JS / Python
+  - Développeur Web / Mobile
+  - Consultant technique
+  - Développeur Jeux vidéo
+
+## 7. Application mobile
+- Interface utilisateur (UI)
+- Expérience utilisateur (UX)
+- Chat vocal avec PrettyhowQ
+- Accès sécurisé par empreinte ou reconnaissance
+- Notifications & suivi de parcours
+
+## 8. Communication
+- Presse & médias
+- Blog & actualités
+- Espace recrutement
+
+## 9. Internationalisation
+- Traduction des contenus (FR / EN / AR / autres)
+- Adaptation des ressources aux pays / cultures
+- Dossiers locaux pour ambassadeurs du Club
+
+## 10. Administration & Hébergement
+- Interface d'administration
+- Base de données membres
+- Système de protection juridique
+- Propriété intellectuelle (copyright Yakoubi Yamina)

@@ -1,0 +1,25 @@
+# Environnement virtuel Python
+venv/
+
+# Fichiers Python compilés
+__pycache__/
+*.pyc
+
+# Fichiers de configuration ou secrets
+.env
+
+# Logs
+*.log
+
+# VS Code
+.vscode/
+
+# Node.js
+node_modules/
+frontend/node_modules/
+
+# Mac
+.DS_Store
+# Windows
+Thumbs.db
+# Linux
