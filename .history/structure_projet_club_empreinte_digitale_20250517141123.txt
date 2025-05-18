@@ -62,60 +62,102 @@
 
 ## 11. Structure du Projet
 ```
-club-empreinte-digitale/
-├── backend/
-│   ├── app.py
-│   ├── club_empreinte_digitale_site.py
-│   ├── vcard_generator_clean.py
-│   ├── requirements.txt
-│   ├── static/
-│   │   └── (images, mp3, logos, etc.)
-│   └── templates/
-│       └── (HTML pour rendu serveur si besoin)
+club-empreinte-digitale/peux 
 │
-├── frontend/
-│   ├── src/
-│   │   ├── generators/
-│   │   │   ├── ProductivityGenerator/
-│   │   │   │   ├── index.js
-│   │   │   │   ├── styles.css
-│   │   │   │   └── prompts.json
-│   │   │   ├── LearningGenerator/
-│   │   │   │   ├── index.js
-│   │   │   │   ├── styles.css
-│   │   │   │   └── prompts.json
-│   │   │   └── ... (autres générateurs)
-│   │   ├── i18n/
-│   │   │   ├── fr.json
-│   │   │   └── en.json
-│   │   └── App.js
-│   ├── public/
-│   │   └── PrettyhowQ_logo.png
-│   ├── index.html
-│   ├── planning_club_empreinte_digitale.html
-│   ├── prompts.json
-│   └── styles.css
+├── backend/                            [DOSSIER]
+│   ├── app.py                          [FICHIER]
+│   ├── club_empreinte_digitale_site.py [FICHIER]
+│   ├── vcard_generator_clean.py        [FICHIER]
+│   ├── planning/                       [DOSSIER]
+│   │   ├── generator.py                [FICHIER]
+│   │   ├── routes.py                   [FICHIER]
+│   │   └── prompts.json                [FICHIER]
+│   ├── multilingues/                   [DOSSIER]
+│   │   ├── routes.py                   [FICHIER]
+│   │   └── static/                     [DOSSIER]
+│   │       └── presentation_prettyhowq.mp3 [FICHIER]
+│   ├── templates/                      [DOSSIER]
+│   │   └── (tes fichiers HTML si besoin de rendu côté serveur) [FICHIER(S)]
+│   ├── requirements.txt                [FICHIER]
+│   └── README.md                       [FICHIER]
 │
-├── docs/
-│   ├── Cahier_des_Charges_Club_Empreinte_Digitale.html
-│   ├── Les Dix Generateurs Du ClubED.html
-│   └── README.md
+├── frontend/                           [DOSSIER]
+│   ├── public/                         [DOSSIER]
+│   │   ├── PrettyhowQ_logo.png         [FICHIER]
+│   │   └── index.html                  [FICHIER]
+│   ├── src/                            [DOSSIER]
+│   │   ├── App.js                      [FICHIER]
+│   │   ├── i18n/                       [DOSSIER]
+│   │   │   ├── fr.json                 [FICHIER]
+│   │   │   └── en.json                 [FICHIER]
+│   │   ├── generators/                 [DOSSIER]
+│   │   │   ├── ProductivityGenerator/  [DOSSIER]
+│   │   │   │   ├── index.js            [FICHIER]
+│   │   │   │   ├── styles.css          [FICHIER]
+│   │   │   │   └── prompts.json        [FICHIER]
+│   │   │   ├── LearningGenerator/      [DOSSIER]
+│   │   │   │   ├── index.js            [FICHIER]
+│   │   │   │   ├── styles.css          [FICHIER]
+│   │   │   │   └── prompts.json        [FICHIER]
+│   │   │   ├── ViralContentGenerator/  [DOSSIER]
+│   │   │   │   ├── index.js            [FICHIER]
+│   │   │   │   ├── styles.css          [FICHIER]
+│   │   │   │   └── prompts.json        [FICHIER]
+│   │   │   ├── CopywritingGenerator/   [DOSSIER]
+│   │   │   │   ├── index.js            [FICHIER]
+│   │   │   │   ├── styles.css          [FICHIER]
+│   │   │   │   └── prompts.json        [FICHIER]
+│   │   │   ├── BusinessGenerator/      [DOSSIER]
+│   │   │   │   ├── index.js            [FICHIER]
+│   │   │   │   ├── styles.css          [FICHIER]
+│   │   │   │   └── prompts.json        [FICHIER]
+│   │   │   ├── MindsetGenerator/       [DOSSIER]
+│   │   │   │   ├── index.js            [FICHIER]
+│   │   │   │   ├── styles.css          [FICHIER]
+│   │   │   │   └── prompts.json        [FICHIER]
+│   │   │   ├── AutomationToolsGenerator/ [DOSSIER]
+│   │   │   │   ├── index.js            [FICHIER]
+│   │   │   │   ├── styles.css          [FICHIER]
+│   │   │   │   └── prompts.json        [FICHIER]
+│   │   │   ├── SocialMediaGrowthGenerator/ [DOSSIER]
+│   │   │   │   ├── index.js            [FICHIER]
+│   │   │   │   ├── styles.css          [FICHIER]
+│   │   │   │   └── prompts.json        [FICHIER]
+│   │   │   ├── DigitalProductsGenerator/ [DOSSIER]
+│   │   │   │   ├── index.js            [FICHIER]
+│   │   │   │   ├── styles.css          [FICHIER]
+│   │   │   │   └── prompts.json        [FICHIER]
+│   │   │   └── CoachingIAGenerator/    [DOSSIER]
+│   │   │       ├── index.js            [FICHIER]
+│   │   │       ├── styles.css          [FICHIER]
+│   │   │       └── prompts.json        [FICHIER]
+│   │   └── components/                 [DOSSIER]
+│   │       └── (boutons, formulaires, etc.) [FICHIER(S)]
+│   ├── styles.css                      [FICHIER]
+│   ├── planning_club_empreinte_digitale.html [FICHIER]
+│   ├── prompts.json                    [FICHIER]
+│   └── README.md                       [FICHIER]
 │
-├── legal/
-│   ├── LICENSE
-│   ├── mentions_legales.md
-│   └── conditions_utilisation.md
+├── docs/                               [DOSSIER]
+│   ├── Cahier_des_Charges_Club_Empreinte_Digitale.html [FICHIER]
+│   ├── Les Dix Generateurs Du ClubED.html              [FICHIER]
+│   └── README.md                       [FICHIER]
 │
-├── public/
-│   └── (images, logos publics, médias)
+├── legal/                              [DOSSIER]
+│   ├── LICENSE                         [FICHIER]
+│   ├── mentions_legales.md             [FICHIER]
+│   └── conditions_utilisation.md       [FICHIER]
 │
-├── mobile/
-│   └── (code source de l’application mobile, UI/UX, chat vocal, etc.)
+├── public/                             [DOSSIER]
+│   └── (images, logos publics, médias) [FICHIER(S)]
 │
-├── admin/
-│   └── (outils d’administration, scripts de gestion, base de données)
+├── mobile/                             [DOSSIER]
+│   └── (code source de l’application mobile, UI/UX, chat vocal, etc.) [FICHIER(S)]
 │
-├── .gitignore
-├── README.md
-└── requirements.txt
+├── admin/                              [DOSSIER]
+│   └── (outils d’administration, scripts de gestion, base de données) [FICHIER(S)]
+│
+├── .gitignore                          [FICHIER]
+├── README.md                           [FICHIER]
+└── requirements.txt                    [FICHIER]
 ```
