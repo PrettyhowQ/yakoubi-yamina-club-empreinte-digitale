@@ -1,61 +1,83 @@
-# README.md
+# 🗄️ Club Empreinte Digitale | Archives & Ressources Historiques
 
-# Club Empreinte Digitale
+**Dépôt d'Archives : Travaux Fondateurs, Ressources Pédagogiques & Prototypes**  
+*Prédécesseur des plateformes actuelles CED HalalTech™ & CED Academy*
 
-Welcome to the Club Empreinte Digitale project! This project aims to provide tools and resources for users to enhance their digital presence and productivity.
+[![Statut](https://img.shields.io/badge/statut-Archives%20Historiques-grey)]
+[![Licence](https://img.shields.io/badge/licence-Propriétaire-red)]
+[![Période](https://img.shields.io/badge/période-2023--2025-blue)]
 
-## Project Structure
+---
 
-The project is organized into several directories:
+## 📜 Contexte & Objectif
 
-- **backend/**: Contains the server-side code for the application.
-  - `club_empreinte_digitale_site.py`: A Flask application that serves as a vCard generator.
-  - `vcard_generator_clean.py`: A utility for generating vCard files.
-  - `requirements.txt`: Lists the dependencies required for the backend application.
+Ce dépôt contient les **fichiers sources historiques**, les prototypes et les ressources pédagogiques qui ont permis la création et le lancement initial du **Club Empreinte Digitale**.
 
-- **frontend/**: Contains the client-side code for the application.
-  - `index.html`: The main entry point for the frontend application.
-  - `planning_club_empreinte_digitale.html`: A user interface for generating personalized planning documents.
-  - `styles.css`: Styles for the frontend application.
-  - `prompts.json`: Contains prompts used in the frontend application for internationalization.
+Il ne s'agit **plus** d'un projet de production actif. Il sert de :
+1.  **Mémoire Technique :** Conservation des premières versions du site, des scripts Python (Flask) et des maquettes HTML.
+2.  **Banque de Ressources :** Accès aux documents pédagogiques (ex: "100 Prompts pour Dominer l'IA"), fichiers audio et assets graphiques.
+3.  **Preuve de Concept :** Illustration de l'évolution du projet depuis ses débuts jusqu'à l'architecture souveraine actuelle.
 
-- **public/**: Contains public assets.
-  - `PrettyhowQ_logo.png`: The logo for the project.
+> **⚠️ Important :** Pour les versions actuelles, sécurisées et en production, veuillez consulter :
+> - 🚀 **Cœur Technique :** [SwissYakoubiDev/ced-core](https://github.com/SwissYakoubiDev/ced-core)
+> - 🎓 **Plateforme Éducative :** [SwissYakoubiDev/ced-academy](https://github.com/SwissYakoubiDev/ced-academy)
 
-- **docs/**: Documentation for the project.
-  - `README.md`: Detailed documentation explaining the project's purpose, setup instructions, and usage.
+---
 
-- **legal/**: Legal information regarding the project.
-  - `LICENSE`: The legal terms for using and distributing the project.
+## 📂 Contenu de ce Dépôt
 
-- **audio/**: Contains audio resources.
-  - `presentation_prettyhowq.mp3`: An audio presentation related to the project.
+Ce dépôt est organisé comme une bibliothèque d'archives :
 
-- **100PromptsPourDominerLIA.pdf**: A PDF document containing prompts or guidelines related to the project.
+### 📚 Ressources Pédagogiques & Documents
+- **`100PromptsPourDominerLIA.pdf`** : Guide complet de prompts pour l'IA (Ressource historique).
+- **`audio/`** : Présentations vocales et supports sonores (ex: `presentation_prettyhowq.mp3`).
+- **`public/`** : Logos et assets graphiques originaux.
 
-## Getting Started
+### 💻 Code Source Historique (Prototypes)
+- **`backend/`** : Anciennes versions en Python (Flask), générateurs de vCard.
+- **`frontend/`** : Maquettes HTML/CSS statiques, interfaces de planning.
+- **`docs/`** : Documentation technique des versions antérieures.
+- **`legal/`** : Anciennes mentions légales et licences.
 
-To get started with the project, follow these steps:
+### 🗑️ Fichiers de Travail
+- Contient également des fichiers de brouillons (`.history`, `Untitled-*.py`, notes de structure) témoignant du processus de développement itératif.
 
-1. Clone the repository to your local machine.
-2. Navigate to the `backend` directory and install the required dependencies using:
-   ```
-   pip install -r requirements.txt
-   ```
-3. Run the Flask application:
-   ```
-   python club_empreinte_digitale_site.py
-   ```
-4. Open your web browser and go to `http://127.0.0.1:5000` to access the application.
+---
 
-## Contributing
+## 🔒 Licence & Utilisation
 
-Contributions are welcome! Please feel free to submit a pull request or open an issue if you find any bugs or have suggestions for improvements.
+**© 2023-2026 Yakoubi Yamina & Club Empreinte Digitale. Tous droits réservés.**
 
-## License
+Contrairement à sa version initiale, ce dépôt est désormais sous licence **PROPRIÉTAIRE**.
+- ✅ **Usage Personnel :** Autorisé pour consultation et apprentissage.
+- ❌ **Usage Commercial :** Interdit sans autorisation écrite.
+- ❌ **Redistribution :** Les ressources (PDF, Audio, Code) ne peuvent être redistribuées séparément.
 
-This project is licensed under the terms of the MIT License. See the `legal/LICENSE` file for details.
+*Ces actifs intellectuels font partie intégrante de l'écosystème CED HalalTech™.*
 
-## Acknowledgments
+---
 
-Thank you for your interest in the Club Empreinte Digitale project! We hope you find it useful and inspiring.
+## 🔄 Évolution du Projet
+
+Ce dépôt a évolué pour donner naissance à l'écosystème souverain actuel :
+
+| Génération | Dépôt / Projet | Statut | Technologie |
+| :--- | :--- | :--- | :--- |
+| **Gen 1 (Archive)** | `yakoubi-yamina-club-empreinte-digitale` (Ici) | 🟢 Archives | Python/Flask, HTML Statique, Ressources PDF. |
+| **Gen 2 (Production)** | `ced-core` / `ced-academy` | 🔴 **Actif** | React 18, Node.js 20, PostgreSQL, Infomaniak Cloud. |
+
+---
+
+## 📞 Contact & Accès aux Ressources
+
+Pour accéder aux versions mises à jour de ces ressources ou pour toute demande concernant les archives :
+
+- **Direction :** Yakoubi Yamina
+- **Email :** direction@ced-halaltech.ch
+- **Site Actuel :** [ced-halaltech.ch](https://ced-halaltech.ch)
+- **Plateforme Éducative :** [club-empreinte-digitale.org](https://club-empreinte-digitale.org)
+
+> *"Qu'Allah bénisse les efforts passés qui ont permis de construire le présent, et mette la Barakah dans les archives de ce savoir."*
+
+© 2023-2026 **CED HalalTech™**. Tous droits réservés.  
+*Archives Historiques – Hébergé en Suisse.*
